@@ -1,0 +1,49 @@
+1. There are 2 bugs causing the pproblem since the pointers are moving by 1 when it should have benn 4 to be alligned.
+2. Replacing the 1 to move the pointers to a 4 so that they are alligned. 
+3. My strategy was to run the code and see where it stops and looking at lines before the line where it stopped and fix everything 
+4. the source pointer is stored at $t1.
+5. the destination pointer is stored at $t2.
+6. for the source pointer: la	$9,source
+   for the destination pointer: la	$10,dest
+7. the line starts at line 35: addu	$8,$8,1
+
+8.  instruction: addu    $8,$8,1
+    purpose: adds 1 to the register
+    Corresponding C: x += 1
+
+    instruction: sll	$3,$8,2
+    purpose: checks if $8 is less than 2  
+    corresponding C: num = x < 2
+
+    instruction: addu	$5,$7,$9
+    purpose: adds as an unsigned number $7 and source pointer and set it to $5
+    Corresponding C: y = z + a
+
+    instruction: addu	$2,$3,$9
+    purpose: adds as an unsigned number $3 and source pointeer and sets to $2
+    Corresponding C: sum = num + a
+
+    insturction: addu	$6,$7,$10
+    purpose: adds an unsigned number to set to $6 by adding $7 and destination pointer
+    Corresponding C: difNum = b + c
+
+    instruction: lw	$4,0($2)
+    purpose: retrieves the value of address $2 to $4
+    Corresponding C: i = sum
+
+    instruction: move	$7,$3
+    purpose: puts $3 into $7
+    Corresponding C: b = num 
+
+    Instruction: lw	$3,0($5)
+    purpose: retrieves the value of address $5 to $3
+    Corresponding C: num = y
+
+    Instruction: sw	$3,0($6)
+    purpose: result put in memory $6
+    Corresponding C: difNum = num
+
+    Instruction: bne	$4,$0,$L6
+    purpose: compares $4 to 0 and loops to label $L6
+    Corresponding C: if (i == 0)
+                        label $L6

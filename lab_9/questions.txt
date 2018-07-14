@@ -1,0 +1,14 @@
+1. '-1' prints an integer while '1' prints a string
+2.Absolute value function
+
+3. int mystery(int a){
+    if (a == 0)
+        return a;
+    else 
+        return mystery(a - 1) + mystery(a - 1) + 1
+    
+}
+4. mystery(7) = 127
+5. results in an overflow
+
+collaborator: Karla Serrano

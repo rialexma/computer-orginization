@@ -1,0 +1,13 @@
+        C1.  C2.    C3.   C4.
+line 5: stack/neither/stack/no
+line 6: stack/allocated/stack/no
+line 7: stack/allocated/stack/no
+line 8: stack/allocated/stack/no
+line 10: stack/neither/false/no
+line 11: heap/allocated/heap/no
+line 12: stack/neither/false/no
+line 13: heap/neither/false/no
+line 14: stack/neither/false/yes
+line 15: heap/allocated/heap/yes
+line 16: stack/freed/stack/no
+

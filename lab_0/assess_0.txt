@@ -1,0 +1,2 @@
+1. you can use the -o flag to change the executable. ex. gcc Hello1.c -o hi(<- here it can be whatever you want).
+2. if you run gcc <source> the executable would then be a.out.

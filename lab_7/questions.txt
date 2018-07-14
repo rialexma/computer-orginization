@@ -1,0 +1,4 @@
+1. the local variable is not dereferenced and its value would be some garbage from the stack unlike setting it to zero.
+2.setting the pointer as a value of the pointer to guarantee a crash in the program.
+
+collaborator: Xavier Villa

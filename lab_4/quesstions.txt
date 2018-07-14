@@ -1,0 +1,8 @@
+1. the hello array does not allocate enough space and does not have a null charater at the end of the hello array.
+2. to fix the bug we need to allocate more space for the array.
+3. we type "gdb executable filename". in C they require a sort of encapsulation since we do not wnat any pointers roaming around freely.
+4. con: using smart objects we can encapsulate the properties of a string unlike in dumb arrays where we cant store strings the same way.
+   pro: int he arrays we always set the size manulally in C and not waste anymore space.
+
+
+

@@ -1,0 +1,11 @@
+1. the -c flag replaces the file name and makes it into an object file.
+2. the -o flagg makes an executable. 
+3. gdb output0
+4. break output0.c:main
+5. run
+6. s
+7. 32 bits.
+8. at least 64 bits.
+9. yes. 
+10. they are the same since doing 2's compliment it would then turn out the same after flipping all biniary integers and later add one finding out that it turn out to be the same anyway.
+

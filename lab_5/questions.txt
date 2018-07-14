@@ -1,0 +1,9 @@
+1.   .data allows you to input data below for a variable.
+     .word allows you to put a number in a variable.
+     .text allows you to write commands
+2. to set breakpoints we check the checkbox in the text segment in line 15
+3. to continue the program we press the button labeled "run the current program"
+4. to view the contents of the register a window is provided of the registers and their values. we can modify them in the respective registers and change a value anytime
+5. the address is at 0x10010000. the address of the 13 fib is 0x00000179.
+6. syscalls are mainly input and output so i t prints the value if the number given is 1 and inn line 20 it will exit the program if the number is 10
+

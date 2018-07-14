@@ -1,0 +1,18 @@
+1. any number x that is greater or equal to 2^24 
+hexadecimal: 0x4B800000
+
+2. any number x that is equal to 2^24
+hexadecimal: 0x4B800000
+
+3.  x = 0x7d348e52
+    y = 0xfd348e52
+    z = 1.0
+    x + (y + z) = 0.0
+    (x + y) + z = 1.0
+
+
+4. no it is not associative when it comes down with (x + y) + z, x + (y + z)
+
+collaborators: Giovanni Gonzalez
+
+

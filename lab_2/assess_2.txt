@@ -1,0 +1,16 @@
+1. To start debugging a program the command is "gdb Program.c".
+2. it provides additional input for the executable.
+3. you set a breakpoint by writing "break file:function".
+4. it would have the command "break ... if expressions"2.
+5. we use the command s to go after a breakpoint.
+6. we use the command "next" to read the program line by line
+7. use the command "continue".
+8. use the command "print [/f] expression" to see the value of a variable.
+9. use the command "display [/f] expression".
+10. using the command info display to print all variables and values. 
+11. using the command quit to exit gdb.
+12. in line 14 the array was missing a null cahracter at the end of s1 array index.
+13. line 15 caused the segmentation fault due to not being saved in the specific address
+14. add the & symbol next to values in line 15.
+15. the variables were not being referenced so I added the & symbol to sum and * in the read_values function parameters since it needs to be pointed in that specific address.
+
